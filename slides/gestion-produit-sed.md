@@ -378,6 +378,31 @@ Bilan, prolongation, révision ou fin anticipée.
 
 ---
 
+<!-- kicker: Avis scientifique -->
+
+## Articulation avec la CDT
+
+La CDT apporte un **avis scientifique** sur les projets déposés. Deux organisations sont possibles :
+
+:::: cols stretch
+::: grey Option 1 — Par campagnes
+- Deux campagnes par an
+- Les projets sont déposés pendant la campagne, toujours via le helpdesk
+- La CDT examine les projets de la campagne et donne son avis scientifique
+:::
+|||
+::: grey Option 2 — Au fil de l'eau
+- Les projets sont déposés à tout moment via le helpdesk
+- Dès qu'il y a suffisamment de projets, la CDT se réunit et donne son avis scientifique
+:::
+::::
+
+::: note
+Rien n'est figé : nous verrons **à l'usage** ce qui fonctionne le mieux.
+:::
+
+---
+
 <!-- kicker: Ce qui oriente l'arbitrage -->
 
 ## Quelle ressource pour quel projet ?
