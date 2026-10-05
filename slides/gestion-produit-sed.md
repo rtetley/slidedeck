@@ -16,7 +16,9 @@ style: |
   .levels .box-title { font-size: 1.3em; text-align: center; }
   .levels .box-body p:first-child { font-weight: 700; margin-bottom: .35em; }
   .levels .box-body small { display: block; border-top: 1px solid #DADADA; padding-top: .45em; margin-top: .5em; font-style: italic; }
-  .value .box { font-size: .7em; }
+  .value .box, .steps .box { font-size: .7em; }
+  .steps .box-title { font-size: 1.05em; }
+  .steps .box-body small { display: block; border-top: 1px solid #DADADA; padding-top: .45em; margin-top: .5em; }
   .value .box-title, .value .box-body { text-align: center; }
 ---
 
@@ -406,6 +408,108 @@ Viser N3, c'est viser ≥ 2 permanents contributeurs : l'EP s'engage à faire vi
 - Décision explicite : arrêt / transfert / nouvelle ADT
 :::
 ::::
+
+---
+
+# Comment demander des ressources
+
+Le processus « mode projet Devtech » de la DGD-I, en version simplifiée.
+
+---
+
+<!-- kicker: Processus mode projet Devtech — DGD-I -->
+
+## Le processus en 5 étapes
+
+:::: cols stretch chain steps
+::: grey 1 · Identification
+Vous exprimez un besoin auprès du RSED et formalisez une « graine de projet ».
+
+<small>Formulaire de demande</small>
+:::
+|||
+::: grey 2 · Qualification
+Faisabilité, opportunité, compétences nécessaires, risques.
+
+<small>Note d'opportunité</small>
+:::
+|||
+::: block 3 · Arbitrage
+Chef de projet technique désigné, feuille de route, décision **GO / No Go**.
+
+<small>Feuille de route</small>
+:::
+|||
+::: grey 4 · Gestion et suivi
+Kick-off, jalons, reporting, revue des livrables.
+
+<small>Livrables du projet</small>
+:::
+|||
+::: grey 5 · Fin ou poursuite
+Bilan, prolongation, révision ou fin anticipée.
+
+<small>Bilan, BIL à jour</small>
+:::
+::::
+
+Le cycle reste **agile** : un projet peut revenir à une étape précédente (révision, besoin de ressources, mise en stand-by).
+
+---
+
+<!-- kicker: Côté chercheur -->
+
+## Concrètement, pour demander des ressources
+
+1. **Parlez-en au RSED de votre centre**\
+   Un échange, même informel, suffit pour démarrer. C'est le point d'entrée unique.
+2. **Formalisez votre besoin**\
+   Formulaire « graine de projet Devtech » : enjeux, objectifs, compétences attendues. Le RSED peut vous aider à le rédiger.
+3. **Construisez la feuille de route**\
+   Avec le chef de projet technique désigné : durée, missions, jalons, livrables — et le niveau de maturité visé.
+4. **Après le GO, impliquez-vous**\
+   Fiche de poste, recrutement ou affectation, puis kick-off : le projet démarre.
+
+---
+
+<!-- kicker: Ce qui oriente l'arbitrage -->
+
+## Quelle ressource pour quel projet ?
+
+:::: cols stretch
+::: block Projet « code structurant »
+- Recherche en priorité d'un **ingénieur permanent** au bon profil (cartographie des compétences)
+- Interclassement avec ses projets en cours
+- À défaut : recrutement d'un CDD
+:::
+|||
+::: grey Projet « code prototype »
+- Recrutement d'un **CDD**
+- Sur une durée et des missions bornées par la feuille de route
+:::
+::::
+
+::: note
+Un arbitrage positif engage les ressources nécessaires au **démarrage** du projet. Les besoins pluriannuels des projets prioritaires doivent être anticipés.
+:::
+
+---
+
+<!-- kicker: Selon le mode de financement -->
+
+## Qui décide ?
+
+| Financement                                   | Type de ressource                         | Décision                              |
+|:----------------------------------------------|:------------------------------------------|:--------------------------------------|
+| Subvention pour charge de service public      | Création de poste (concours)              | DG                                    |
+|                                               | Affectation ou mobilité d'un permanent    | DGD-I et DCR                          |
+| BMI non fléché                                | CDD centre / CDD DGD-I                    | DCR / directeur DGD-I                 |
+| BMI fléché — agence de programme              | CDD                                       | Agence / responsables de programme    |
+| BMI fléché — PEPR                             | CDD                                       | Cellule PEPR                          |
+| Contrat de recherche partenariale             | CDD                                       | DCR                                   |
+| Partenaire académique (ESR)                   | Ingénieur du partenaire                   | Structure de rattachement             |
+
+<small>Quel que soit le circuit, la demande passe par les étapes 1 et 2 et alimente la cartographie des projets. Mission Défense : circuit spécifique.</small>
 
 ---
 
