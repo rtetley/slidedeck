@@ -398,31 +398,13 @@ La CDT apporte un **avis scientifique** sur les projets déposés. Deux organisa
 ::::
 
 ::: note
+En bout de pipeline: la **direction du centre** et la **DGD-I** **arbitrent**. 
+:::
+
+::: note
 Rien n'est figé : nous verrons **à l'usage** ce qui fonctionne le mieux.
 :::
 
----
-
-<!-- kicker: Ce qui oriente l'arbitrage -->
-
-## Quelle ressource pour quel projet ?
-
-:::: cols stretch
-::: block Projet « code structurant »
-- Recherche en priorité d'un **ingénieur permanent** au bon profil (cartographie des compétences)
-- Interclassement avec ses projets en cours
-- À défaut : recrutement d'un CDD
-:::
-|||
-::: grey Projet « code prototype »
-- Recrutement d'un **CDD**
-- Sur une durée et des missions bornées par la feuille de route
-:::
-::::
-
-::: note
-Un arbitrage positif engage les ressources nécessaires au **démarrage** du projet. Les besoins pluriannuels des projets prioritaires doivent être anticipés.
-:::
 
 ---
 
