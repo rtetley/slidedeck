@@ -413,16 +413,12 @@ Rien n'est figé : nous verrons **à l'usage** ce qui fonctionne le mieux.
 ## Et maintenant ?
 
 :::: cols stretch
-::: note Les documents sont disponibles
-Cadre AMDT v2 (niveaux 1-3) et complément niveaux 4-5. En cours de stabilisation — vos retours d'expérience les feront évoluer.
+::: note Une campagne CDT est en cours
+C'est le moment de déposer vos projets via le helpdesk.
 :::
 |||
-::: note Le Mode 2 POC++ se teste bientôt
-Un code à potentiel dans l'écosystème Inria — un logiciel de thèse abandonné, un prototype jamais finalisé ? C'est le moment d'en parler.
-:::
-|||
-::: note Les questions ouvertes sont réelles
-Capacité réelle de l'équipe en ETP, articulation avec les SI institutionnels, financement du Mode 2 : des questions qui ont besoin de vous.
+::: note Immersions dans les équipes
+Nous voudrions venir à votre rencontre. Si vous êtes intéressés, contactez-moi : [romain.tetley@inria.fr](mailto:romain.tetley@inria.fr)
 :::
 ::::
 
