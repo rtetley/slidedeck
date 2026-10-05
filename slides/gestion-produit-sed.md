@@ -184,44 +184,18 @@ La plupart de nos ADT opèrent **entre les niveaux 1 et 3**.
 
 ---
 
-<!-- kicker: Notre vraie valeur ajoutée collective -->
-
-## Ce que nous capitalisons entre deux projets Devtech
-
-:::: cols
-::: plain Expertise de transition
-On sait quels sont les pièges du passage N2 → N3. On l'a vécu sur Diogenes, FedBioMed, Marmote. Ce savoir-faire ne repart pas avec le code.
-:::
-
-::: plain Culture agile partagée
-Scrum, user stories, démos de fin de sprint, *definition of done*. Un langage commun qui permet de travailler avec n'importe quelle EP.
-:::
-|||
-::: plain Socle scientifique et technique mutualisé
-CI/CD, packaging conda, templates de dépôts, infrastructure GitLab, domaine scientifique abordé. Ce qui est construit sur une ADT sert à la suivante.
-:::
-
-::: plain Réseau de confiance
-Les EP reviennent parce qu'elles font confiance à notre façon de travailler. C'est ce que 15 ans d'AMDT, entre autres, ont construit.
-:::
-::::
-
-C'est ce qu'une entreprise tech appellerait l'**enablement** : ça se pilote, ça se capitalise, ça se transmet.
-
----
-
 # Savoir ce qui est attendu
 
 ---
 
 <!-- kicker: Deux positions, deux postures -->
 
-## Ce qui est attendu de chacun
+## Quelles attentes pour qui ?
 
-1. **Vous êtes ingénieur au SED** — en AMDT, affecté dans une EP ou en CDD\
-   Votre rôle : faire avancer le logiciel vers le niveau de maturité cible défini au cadrage. Votre travail doit être documenté, commité et transmissible. Sur chaque projet, l'un d'entre vous est le *chef de projet* : il décide du comment et du quand.
-2. **Vous êtes chercheur**\
-   Votre rôle : porter la vision scientifique et décider du quoi. Vous validez le niveau cible et le bilan de maturité, et vous êtes disponible aux moments clés : démos, arbitrages.
+1. **Ingénieurs au SED** — en AMDT, affecté dans une EP ou en CDD\
+   Rôle : faire avancer le logiciel vers le niveau de maturité cible défini au cadrage. Le travail doit être documenté, commité et transmissible. Sur chaque projet, il y a un *chef de projet* : il décide du comment et du quand.
+2. **Chercheurs demandeur de projets DevTech**\
+   Rôle : porter la vision scientifique et décider du quoi. Valider le niveau cible et le bilan de maturité. Etre disponible aux moments clés : démos, arbitrages.
 
 ---
 
@@ -230,7 +204,7 @@ C'est ce qu'une entreprise tech appellerait l'**enablement** : ça se pilote, ç
 ## Le chef de projet
 
 ::: note
-Le chef de projet — le *chef de projet technique* du processus DGD-I — est le lien vivant entre la vision scientifique du chercheur et le backlog de développement. C'est lui qui garantit que le travail de l'ADT sert réellement les objectifs de l'EP — et pas seulement le code.
+Le chef de projet — le *chef de projet technique* du processus DGD-I — est le lien vivant entre la vision scientifique du chercheur et le backlog de développement. C'est lui qui garantit que le travail du SED sert réellement les objectifs de l'EP — et pas seulement le code.
 :::
 
 #### La règle d'arbitrage
@@ -245,7 +219,7 @@ Le chef de projet — le *chef de projet technique* du processus DGD-I — est l
 
 <!-- kicker: Côté équipe-projet -->
 
-## Ce qui est attendu du chercheur
+## Chercheur / Demandeur
 
 :::: cols
 ::: plain 1 · Porter la vision scientifique
@@ -325,14 +299,14 @@ Backlog incohérent, chercheur absent, capacité dépassée. La transparence est
 
 <!-- kicker: Un engagement réciproque -->
 
-## Ce que chacun apporte
+## Les engagements de chacun
 
 :::: cols stretch
 ::: block Le chercheur s'engage à
 - Porter la vision et décider des priorités
 - Être disponible aux moments clés
 - Valider la cible et le bilan de maturité
-- Faire vivre le logiciel après l'ADT
+- Faire vivre le logiciel après la fin du projet DevTech
 :::
 |||
 ::: alert Le SED s'engage à
@@ -340,30 +314,6 @@ Backlog incohérent, chercheur absent, capacité dépassée. La transparence est
 - Dans un temps borné, de façon fiable
 - Un travail documenté et transmissible
 - La transparence quand quelque chose cloche
-:::
-::::
-
----
-
-## Ce qui change concrètement
-
-:::: cols stretch chain
-::: grey Au cadrage de chaque ADT
-- Niveau de maturité du logiciel au départ renseigné
-- Niveau cible défini et validé par le chercheur
-- Chef de projet désigné, avec disponibilité estimée
-:::
-|||
-::: grey À chaque story de développement
-- Niveau de maturité visé mentionné
-- Critère d'acceptation vérifiable (CI verte, HAL déposé…)
-- Part relative R/D/C renseignée si story mixte
-:::
-|||
-::: block 2 mois avant la fin de l'ADT
-- Bilan de maturité : niveau atteint vs cible initiale
-- Actions de citabilité vérifiées : HAL, BIL, `CITATION.cff`, Zenodo
-- Décision explicite : arrêt / transfert / nouvelle ADT
 :::
 ::::
 
@@ -381,7 +331,7 @@ Le processus « mode projet Devtech » de la DGD-I, en version simplifiée.
 
 :::: cols stretch chain steps
 ::: grey 1 · Identification
-Vous exprimez un besoin auprès du RSED et formalisez une « graine de projet ».
+Expression du besoin auprès du RSED. Formalisation d'une «graine de projet».
 
 <small>Formulaire de demande</small>
 :::
@@ -411,8 +361,6 @@ Bilan, prolongation, révision ou fin anticipée.
 :::
 ::::
 
-Le cycle reste **agile** : un projet peut revenir à une étape précédente (révision, besoin de ressources, mise en stand-by).
-
 ---
 
 <!-- kicker: Côté chercheur -->
@@ -421,11 +369,11 @@ Le cycle reste **agile** : un projet peut revenir à une étape précédente (r�
 
 1. **Parlez-en au RSED de votre centre**\
    Un échange, même informel, suffit pour démarrer. C'est le point d'entrée unique.
-2. **Formalisez votre besoin**\
-   Formulaire « graine de projet Devtech » : enjeux, objectifs, compétences attendues. Le RSED peut vous aider à le rédiger.
-3. **Construisez la feuille de route**\
-   Avec le chef de projet technique désigné : durée, missions, jalons, livrables — et le niveau de maturité visé.
-4. **Après le GO, impliquez-vous**\
+2. **Graine de projet**\
+   Formulaire « graine de projet Devtech » sur le helpdesk. Pour démarrer un simple paragraphe d'explication suffit.
+3. **Note d'opportunité**\
+   Durée, missions, jalons, livrables — et le niveau de maturité visé. Un instructeur nommé assiste à la formalisation.
+5. **Après le GO, impliquez-vous**\
    Fiche de poste, recrutement ou affectation, puis kick-off : le projet démarre.
 
 ---
@@ -450,45 +398,6 @@ Le cycle reste **agile** : un projet peut revenir à une étape précédente (r�
 ::: note
 Un arbitrage positif engage les ressources nécessaires au **démarrage** du projet. Les besoins pluriannuels des projets prioritaires doivent être anticipés.
 :::
-
----
-
-<!-- kicker: Selon le mode de financement -->
-
-## Qui décide ?
-
-| Financement                                   | Type de ressource                         | Décision                              |
-|:----------------------------------------------|:------------------------------------------|:--------------------------------------|
-| Subvention pour charge de service public      | Création de poste (concours)              | DG                                    |
-|                                               | Affectation ou mobilité d'un permanent    | DGD-I et DCR                          |
-| BMI non fléché                                | CDD centre / CDD DGD-I                    | DCR / directeur DGD-I                 |
-| BMI fléché — agence de programme              | CDD                                       | Agence / responsables de programme    |
-| BMI fléché — PEPR                             | CDD                                       | Cellule PEPR                          |
-| Contrat de recherche partenariale             | CDD                                       | DCR                                   |
-| Partenaire académique (ESR)                   | Ingénieur du partenaire                   | Structure de rattachement             |
-
-<small>Quel que soit le circuit, la demande passe par les étapes 1 et 2 et alimente la cartographie des projets. Mission Défense : circuit spécifique.</small>
-
----
-
-<!-- layout: statement -->
-
-<small>La réponse à la question de départ</small>
-
-Quand une équipe-projet fait appel à nous, elle achète **un saut de maturité**.
-
-<small>Pas des heures. Pas du code. Un saut de maturité garanti méthodologiquement.</small>
-
----
-
-<!-- layout: statement -->
-<!-- bg: white -->
-
-<small>Une condition</small>
-
-Pour que ce soit vrai, il faut qu'on partage **tous** la même façon de nommer, mesurer et documenter ce que nous faisons.
-
-<small>IR, ingénieurs en AMDT ou affectés dans la durée, CDD — c'est le sens de ce cadre.</small>
 
 ---
 
