@@ -1,0 +1,32 @@
+{
+  "name": "inria-slides",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Markdown → HTML slides following the Inria visual identity, published on GitHub Pages",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "bin": {
+    "inria-slides": "bin/inria-slides.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node --watch bin/inria-slides.js serve slides",
+    "build": "node bin/inria-slides.js site slides -o dist",
+    "build:pdf": "node bin/inria-slides.js site slides -o dist --pdf",
+    "test": "node --test \"test/*.test.js\"",
+    "check": "npm test && npm run build -- --strict",
+    "new": "node bin/inria-slides.js new",
+    "deploy": "gh workflow run deploy.yml --ref main && echo \"Deployment started: gh run list --workflow=deploy.yml\""
+  },
+  "dependencies": {
+    "@fontsource/fira-code": "^5.3.0",
+    "@fontsource/inria-sans": "^5.3.0",
+    "@fontsource/inria-serif": "^5.3.0",
+    "highlight.js": "^11.12.0",
+    "js-yaml": "^5.4.2",
+    "katex": "^0.19.0",
+    "marked": "^18.0.14"
+  }
+}

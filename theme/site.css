@@ -1,0 +1,80 @@
+/* Gallery page listing every deck (dist/index.html). */
+
+:root {
+  --inria-red: #E63312;
+  --inria-red-deep: #C9191E;
+  --ink: #1D1D1B;
+  --grey-600: #6F6F6E;
+  --grey-200: #DADADA;
+  --grey-100: #F2F2F2;
+  --white: #FFFFFF;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--white);
+  color: var(--ink);
+  font-family: "Inria Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
+
+.site-header { background: var(--inria-red); color: var(--white); padding: 40px 0 48px; }
+.site-header .logo { height: 40px; display: block; margin-bottom: 40px; }
+.site-header h1 { margin: 0; font-size: clamp(32px, 5vw, 48px); line-height: 1.1; letter-spacing: -0.01em; }
+.site-header .lead { margin: 12px 0 0; font-size: 20px; font-weight: 300; max-width: 720px; }
+
+main.wrap { padding-top: 40px; padding-bottom: 48px; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); gap: 28px; }
+
+.card { display: flex; flex-direction: column; border: 1px solid var(--grey-200); background: var(--white); }
+.card:hover { border-color: var(--inria-red); }
+.card:hover .cover-title { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  aspect-ratio: 16 / 9;
+  padding: 22px 24px;
+  background: var(--inria-red);
+  color: var(--white);
+  text-decoration: none;
+  overflow: hidden;
+}
+.cover .event { font-size: 11px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; opacity: .9; margin-bottom: 6px; }
+.cover .cover-title { margin: 0; font-size: 24px; font-weight: 700; line-height: 1.15; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.cover .cover-logo { position: absolute; left: 24px; top: 18px; height: 16px; }
+
+.card-body { padding: 18px 22px 20px; display: flex; flex-direction: column; flex: 1; }
+.card .subtitle { margin: 0 0 6px; font-size: 18px; }
+.card .byline { margin: 0 0 14px; font-size: 14px; color: var(--grey-600); }
+.badge { position: absolute; right: 18px; top: 16px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; background: var(--white); color: var(--inria-red-deep); padding: 2px 8px; }
+
+.actions { margin: auto 0 0; display: flex; align-items: center; gap: 10px; }
+.btn {
+  display: inline-block;
+  padding: 7px 16px;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--ink);
+  border: 2px solid var(--ink);
+}
+.btn.primary { background: var(--inria-red); border-color: var(--inria-red); color: var(--white); }
+.btn:hover { background: var(--ink); border-color: var(--ink); color: var(--white); }
+.btn:focus-visible, .cover:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+.count { margin-left: auto; font-size: 14px; color: var(--grey-600); }
+
+.empty { color: var(--grey-600); }
+.empty code { background: var(--grey-100); padding: 2px 6px; }
+
+.site-footer { padding-top: 24px; padding-bottom: 32px; border-top: 1px solid var(--grey-200); font-size: 14px; color: var(--grey-600); }
