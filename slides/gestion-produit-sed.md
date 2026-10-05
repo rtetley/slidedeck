@@ -1,6 +1,6 @@
 ---
-title: Vers une définition de la gestion de produit à Inria
-subtitle: Ce que les équipes-projets attendent vraiment du SED
+title: Présentation du SED
+subtitle: Définir ce que les équipes projets peuvent attendre de nous
 author: SED Sophia
 date: "2026"
 footer: Gestion de produit à Inria  ·  SED Sophia — 2026
@@ -26,7 +26,7 @@ style: |
 
 <small>La question de départ</small>
 
-Quand une équipe-projet fait appel à nous, qu'est-ce qu'elle **nous achète exactement** ?
+Quand une équipe-projet fait appel au SED, à quoi peut elle s'attendre ?
 
 ---
 
@@ -67,7 +67,8 @@ Quand une équipe-projet fait appel à nous, qu'est-ce qu'elle **nous achète ex
 
 Faire passer un logiciel de recherche d'un niveau de maturité à un **niveau supérieur**, de façon fiable, dans un temps borné.
 
-<small>C'est ça que les équipes-projets achètent. Pas des heures. Pas du code. Un saut de maturité.</small>
+<small>Voilà notre vraie valeur ajoutée. \
+Pas des heures. Pas du code. Un saut de maturité.</small>
 
 ---
 
@@ -77,19 +78,19 @@ Faire passer un logiciel de recherche d'un niveau de maturité à un **niveau su
 
 ## Qu'est-ce qu'un niveau de maturité ?
 
-Le SDT a récemment communiqué une **échelle institutionnelle à 5 niveaux** — peu connue, mais fondamentale. Elle définit ce que signifie concrètement « faire avancer » un logiciel de recherche. C'est le langage commun que nous devons tous partager.
+Le SDT a récemment communiqué une **échelle institutionnelle à 5 niveaux** — peu connue, mais fondamentale. Elle définit ce que signifie concrètement « faire avancer » un logiciel de recherche.
 
 :::: cols stretch
-::: note Ce n'est pas un TRL
-C'est une échelle d'impact scientifique et communautaire — pas une mesure de maturité technologique industrielle.
+::: note Pas un TRL
+Une échelle d'impact scientifique et communautaire — pas une mesure de maturité technologique industrielle.
 :::
 |||
-::: note Ce n'est pas subjectif
+::: note Mesures objectives
 Chaque niveau a des critères vérifiables : un dépôt HAL, des contributeurs, des citations, une communauté.
 :::
 |||
-::: note C'est notre boussole
-Chaque ADT part d'un niveau connu et vise un niveau supérieur. C'est la définition de notre travail.
+::: note Un guide pour notre travail
+Chaque ADT part d'un niveau connu et vise un niveau supérieur.
 :::
 ::::
 
@@ -141,13 +142,13 @@ Infrastructure collective, stratégie nationale
 :::
 ::::
 
-La plupart de nos ADT opèrent **entre les niveaux 1 et 3** — c'est là que se joue l'essentiel de notre impact.
+La plupart de nos ADT opèrent **entre les niveaux 1 et 3**.
 
 ---
 
 <!-- kicker: Quelques exemples -->
 
-## Ce que « monter d'un niveau » signifie
+## Concrètement, « monter d'un niveau » c'est quoi ?
 
 | Logiciel      | Départ        | Cible            | Ce qui fait la différence                                   |
 |:--------------|:--------------|:-----------------|:------------------------------------------------------------|
@@ -157,48 +158,16 @@ La plupart de nos ADT opèrent **entre les niveaux 1 et 3** — c'est là que se
 
 ---
 
-<!-- kicker: La chaîne de valeur du logiciel scientifique -->
-
-## Dans quoi s'inscrit notre travail
-
-:::: cols stretch chain value
-::: grey Code de recherche
-Scripts, notebooks, prototypes
-:::
-|||
-::: block Projet Devtech
-ADT, POC++, méthode agile
-:::
-|||
-::: grey Logiciel citable
-HAL, BIL, CI/CD, documentation
-:::
-|||
-::: grey EP + communauté
-Utilisateurs, contributeurs
-:::
-|||
-::: grey Impact scientifique
-Citations, transfert, politiques publiques
-:::
-::::
-
-::: note
-Un projet Devtech n'est pas au bout de la chaîne — **il est au milieu**. Son but est de transformer quelque chose d'inutilisable en quelque chose d'utilisable et de citable. Ce que le logiciel devient ensuite dépend d'autres acteurs : l'EP, la communauté, les partenaires.
-:::
-
----
-
 ## Nos deux façons d'intervenir
 
 :::: cols stretch
 ::: block Mode 1 — Delivery
 **L'équipe-projet nous demande de l'aide**
 
-- Une ADT bornée dans le temps
+- Un projet borné dans le temps
 - Le logiciel appartient à l'EP
-- L'AMDT apporte la méthode et la qualité
-- Cible : N1/N2 → N3 (Structurant)
+- Le SED apporte la méthode et la qualité
+- Cible : N1/N2 → N3 (Structurant), N3 → N4
 - C'est notre mission centrale depuis 15 ans
 :::
 |||
