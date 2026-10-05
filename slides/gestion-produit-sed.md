@@ -251,7 +251,7 @@ C'est ce qu'une entreprise tech appellerait l'**enablement** : ça se pilote, ç
 
 1. **Vous êtes ingénieur au SED** — en AMDT, affecté dans une EP ou en CDD\
    Votre rôle : faire avancer le logiciel vers le niveau de maturité cible défini au cadrage. Votre travail doit être documenté, commité et transmissible. Sur chaque projet, l'un d'entre vous est le *chef de projet* : il décide du comment et du quand.
-2. **Vous êtes chercheur, *Product Owner* du logiciel**\
+2. **Vous êtes chercheur**\
    Votre rôle : porter la vision scientifique et décider du quoi. Vous validez le niveau cible et le bilan de maturité, et vous êtes disponible aux moments clés : démos, arbitrages.
 
 ---
@@ -268,15 +268,15 @@ Le chef de projet — le *chef de projet technique* du processus DGD-I — est l
 
 | Domaine                                   | Qui décide                      | Exemple                                 |
 |:------------------------------------------|:--------------------------------|:----------------------------------------|
-| **Quoi** — priorités fonctionnelles        | Le PO-chercheur (dernier mot)   | « D'abord le solveur 3D »               |
+| **Quoi** — priorités fonctionnelles        | Le chercheur (dernier mot)      | « D'abord le solveur 3D »               |
 | **Comment / Quand** — décisions techniques | Le chef de projet (autorité)    | « On refactorise d'abord le module IO » |
 | **Qualité** — standards logiciels          | Chef de projet + lead technique AMDT | CI/CD, couverture de tests, doc         |
 
 ---
 
-<!-- kicker: Côté équipe-projet — le chercheur Product Owner -->
+<!-- kicker: Côté équipe-projet -->
 
-## Ce qui est attendu du PO-chercheur
+## Ce qui est attendu du chercheur
 
 :::: cols
 ::: plain 1 · Porter la vision scientifique
@@ -284,11 +284,11 @@ Pourquoi ce logiciel, pour qui, pour quel impact. C'est le point de départ du b
 :::
 
 ::: plain 3 · Être disponible
-Démos de fin de sprint, réponses aux questions de l'équipe, arbitrages. Un PO absent est un signal d'alerte, pas une option.
+Démos de fin de sprint, réponses aux questions de l'équipe, arbitrages. Un chercheur absent est un signal d'alerte, pas une option.
 :::
 |||
 ::: plain 2 · Décider du *quoi*
-Le PO a le dernier mot sur les priorités fonctionnelles. Le *comment* et le *quand* restent du ressort du chef de projet.
+Le chercheur a le dernier mot sur les priorités fonctionnelles. Le *comment* et le *quand* restent du ressort du chef de projet.
 :::
 
 ::: plain 4 · S'engager dans la durée
@@ -316,7 +316,7 @@ La cible est définie au cadrage, visible dans le backlog, rappelée à chaque s
 :::
 
 ::: plain 4 · Signaler quand quelque chose cloche
-Backlog incohérent, PO absent, capacité dépassée. La transparence est une valeur du SED — pas une option.
+Backlog incohérent, chercheur absent, capacité dépassée. La transparence est une valeur du SED — pas une option.
 :::
 ::::
 
@@ -324,9 +324,9 @@ Backlog incohérent, PO absent, capacité dépassée. La transparence est une va
 
 
 
-<!-- kicker: Côté équipe-projet — le rôle du PO au fil de l'ADT -->
+<!-- kicker: Côté équipe-projet — le rôle du chercheur au fil de l'ADT -->
 
-## Le PO, du cadrage à la clôture
+## Le chercheur, du cadrage à la clôture
 
 :::: cols stretch chain
 ::: grey Au cadrage
@@ -359,7 +359,7 @@ Backlog incohérent, PO absent, capacité dépassée. La transparence est une va
 ## Ce que chacun apporte
 
 :::: cols stretch
-::: block Le PO-chercheur s'engage à
+::: block Le chercheur s'engage à
 - Porter la vision et décider des priorités
 - Être disponible aux moments clés
 - Valider la cible et le bilan de maturité
@@ -381,7 +381,7 @@ Backlog incohérent, PO absent, capacité dépassée. La transparence est une va
 :::: cols stretch chain
 ::: grey Au cadrage de chaque ADT
 - Niveau de maturité du logiciel au départ renseigné
-- Niveau cible défini et validé par le PO
+- Niveau cible défini et validé par le chercheur
 - Chef de projet désigné, avec disponibilité estimée
 :::
 |||
