@@ -243,7 +243,7 @@ C'est ce qu'une entreprise tech appellerait l'**enablement** : ça se pilote, ç
 
 ---
 
-<!-- kicker: Trois situations, trois postures -->
+<!-- kicker: Côté SED — trois situations, trois postures -->
 
 ## Ce qui est attendu de chacun
 
@@ -274,7 +274,7 @@ Le COP est le lien vivant entre la vision scientifique du chercheur et le backlo
 
 ---
 
-<!-- kicker: Quel que soit votre rôle -->
+<!-- kicker: Côté SED — quel que soit votre rôle -->
 
 ## Ce qui est attendu de tout le monde
 
@@ -293,6 +293,93 @@ La cible est définie au cadrage, visible dans le backlog, rappelée à chaque s
 
 ::: plain 4 · Signaler quand quelque chose cloche
 Backlog incohérent, PO absent, capacité dépassée. La transparence est une valeur du SED — pas une option.
+:::
+::::
+
+---
+
+<!-- layout: statement -->
+<!-- bg: white -->
+
+<small>Et côté équipe-projet ?</small>
+
+Un saut de maturité ne se fait pas sans **le chercheur qui porte le logiciel** : c'est lui le *Product Owner*.
+
+<small>Ce que nous attendons des chercheurs — et ce qu'ils peuvent attendre de nous.</small>
+
+---
+
+<!-- kicker: Côté équipe-projet — le chercheur Product Owner -->
+
+## Ce qui est attendu du PO-chercheur
+
+:::: cols
+::: plain 1 · Porter la vision scientifique
+Pourquoi ce logiciel, pour qui, pour quel impact. C'est le point de départ du backlog et de la cible de maturité.
+:::
+
+::: plain 3 · Être disponible
+Démos de fin de sprint, réponses aux questions de l'équipe, arbitrages. Un PO absent est un signal d'alerte, pas une option.
+:::
+|||
+::: plain 2 · Décider du *quoi*
+Le PO a le dernier mot sur les priorités fonctionnelles. Le *comment* et le *quand* restent du ressort du COP.
+:::
+
+::: plain 4 · S'engager dans la durée
+Viser N3, c'est viser ≥ 2 permanents contributeurs : l'EP s'engage à faire vivre le logiciel après l'ADT.
+:::
+::::
+
+---
+
+<!-- kicker: Côté équipe-projet — le rôle du PO au fil de l'ADT -->
+
+## Le PO, du cadrage à la clôture
+
+:::: cols stretch chain
+::: grey Au cadrage
+- Formuler la vision et les utilisateurs cibles
+- Valider le niveau de départ et le niveau cible
+- S'engager sur une disponibilité
+:::
+|||
+::: grey À chaque sprint
+- Prioriser le backlog
+- Assister à la démo de fin de sprint
+- Accepter ou refuser les stories selon leurs critères
+:::
+|||
+::: grey 2 mois avant la fin
+- Valider le bilan de maturité
+- Prendre la décision : arrêt / transfert / nouvelle ADT
+:::
+|||
+::: block Après l'ADT
+- Faire vivre le logiciel dans l'EP
+- Le rendre visible : HAL, BIL, citations, mention RA
+:::
+::::
+
+---
+
+<!-- kicker: Un engagement réciproque -->
+
+## Ce que chacun apporte
+
+:::: cols stretch
+::: block Le PO-chercheur s'engage à
+- Porter la vision et décider des priorités
+- Être disponible aux moments clés
+- Valider la cible et le bilan de maturité
+- Faire vivre le logiciel après l'ADT
+:::
+|||
+::: alert Le SED s'engage à
+- Un saut de maturité garanti méthodologiquement
+- Dans un temps borné, de façon fiable
+- Un travail documenté et transmissible
+- La transparence quand quelque chose cloche
 :::
 ::::
 
