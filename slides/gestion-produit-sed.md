@@ -245,27 +245,23 @@ C'est ce qu'une entreprise tech appellerait l'**enablement** : ça se pilote, ç
 
 ---
 
-<!-- kicker: Quatre situations, quatre postures -->
+<!-- kicker: Deux positions, deux postures -->
 
 ## Ce qui est attendu de chacun
 
-1. **Vous travaillez au sein de l'AMDT**\
-   Votre rôle : faire avancer le logiciel vers le niveau de maturité cible défini au cadrage. Chaque sprint, chaque story D doit être reliée à ce niveau cible.
-2. **Vous êtes affecté durablement dans une EP** (COP — *Correspondent of Project*)\
-   Votre rôle : être le lien vivant entre la vision scientifique de l'EP et le backlog de l'ADT. C'est le rôle le plus stratégique du dispositif. Vous décidez du comment et du quand.
-3. **Vous êtes en CDD sur un projet spécifique**\
-   Votre rôle : contribuer à une initiative bornée dans le temps. Votre travail doit être documenté, commité et transmissible avant votre départ. C'est non négociable.
-4. **Vous êtes chercheur, *Product Owner* du logiciel**\
+1. **Vous êtes ingénieur au SED** — en AMDT, affecté dans une EP ou en CDD\
+   Votre rôle : faire avancer le logiciel vers le niveau de maturité cible défini au cadrage. Votre travail doit être documenté, commité et transmissible. Sur chaque projet, l'un d'entre vous est le *chef de projet* : il décide du comment et du quand.
+2. **Vous êtes chercheur, *Product Owner* du logiciel**\
    Votre rôle : porter la vision scientifique et décider du quoi. Vous validez le niveau cible et le bilan de maturité, et vous êtes disponible aux moments clés : démos, arbitrages.
 
 ---
 
-<!-- kicker: Le rôle pivot de l'affectation durable -->
+<!-- kicker: Le rôle pivot du dispositif -->
 
-## Le COP — *Correspondent of Project*
+## Le chef de projet
 
 ::: note
-Le COP est le lien vivant entre la vision scientifique du chercheur et le backlog de développement. C'est lui qui garantit que le travail de l'ADT sert réellement les objectifs de l'EP — et pas seulement le code.
+Le chef de projet — le *chef de projet technique* du processus DGD-I — est le lien vivant entre la vision scientifique du chercheur et le backlog de développement. C'est lui qui garantit que le travail de l'ADT sert réellement les objectifs de l'EP — et pas seulement le code.
 :::
 
 #### La règle d'arbitrage
@@ -273,8 +269,32 @@ Le COP est le lien vivant entre la vision scientifique du chercheur et le backlo
 | Domaine                                   | Qui décide                      | Exemple                                 |
 |:------------------------------------------|:--------------------------------|:----------------------------------------|
 | **Quoi** — priorités fonctionnelles        | Le PO-chercheur (dernier mot)   | « D'abord le solveur 3D »               |
-| **Comment / Quand** — décisions techniques | Le COP (autorité)               | « On refactorise d'abord le module IO » |
-| **Qualité** — standards logiciels          | COP + lead technique AMDT       | CI/CD, couverture de tests, doc         |
+| **Comment / Quand** — décisions techniques | Le chef de projet (autorité)    | « On refactorise d'abord le module IO » |
+| **Qualité** — standards logiciels          | Chef de projet + lead technique AMDT | CI/CD, couverture de tests, doc         |
+
+---
+
+<!-- kicker: Côté équipe-projet — le chercheur Product Owner -->
+
+## Ce qui est attendu du PO-chercheur
+
+:::: cols
+::: plain 1 · Porter la vision scientifique
+Pourquoi ce logiciel, pour qui, pour quel impact. C'est le point de départ du backlog et de la cible de maturité.
+:::
+
+::: plain 3 · Être disponible
+Démos de fin de sprint, réponses aux questions de l'équipe, arbitrages. Un PO absent est un signal d'alerte, pas une option.
+:::
+|||
+::: plain 2 · Décider du *quoi*
+Le PO a le dernier mot sur les priorités fonctionnelles. Le *comment* et le *quand* restent du ressort du chef de projet.
+:::
+
+::: plain 4 · S'engager dans la durée
+Viser N3, c'est viser ≥ 2 permanents contributeurs : l'EP s'engage à faire vivre le logiciel après l'ADT.
+:::
+::::
 
 ---
 
@@ -302,40 +322,7 @@ Backlog incohérent, PO absent, capacité dépassée. La transparence est une va
 
 ---
 
-<!-- layout: statement -->
-<!-- bg: white -->
 
-<small>Et côté équipe-projet ?</small>
-
-Un saut de maturité ne se fait pas sans **le chercheur qui porte le logiciel** : c'est lui le *Product Owner*.
-
-<small>Ce que nous attendons des chercheurs — et ce qu'ils peuvent attendre de nous.</small>
-
----
-
-<!-- kicker: Côté équipe-projet — le chercheur Product Owner -->
-
-## Ce qui est attendu du PO-chercheur
-
-:::: cols
-::: plain 1 · Porter la vision scientifique
-Pourquoi ce logiciel, pour qui, pour quel impact. C'est le point de départ du backlog et de la cible de maturité.
-:::
-
-::: plain 3 · Être disponible
-Démos de fin de sprint, réponses aux questions de l'équipe, arbitrages. Un PO absent est un signal d'alerte, pas une option.
-:::
-|||
-::: plain 2 · Décider du *quoi*
-Le PO a le dernier mot sur les priorités fonctionnelles. Le *comment* et le *quand* restent du ressort du COP.
-:::
-
-::: plain 4 · S'engager dans la durée
-Viser N3, c'est viser ≥ 2 permanents contributeurs : l'EP s'engage à faire vivre le logiciel après l'ADT.
-:::
-::::
-
----
 
 <!-- kicker: Côté équipe-projet — le rôle du PO au fil de l'ADT -->
 
@@ -395,7 +382,7 @@ Viser N3, c'est viser ≥ 2 permanents contributeurs : l'EP s'engage à faire vi
 ::: grey Au cadrage de chaque ADT
 - Niveau de maturité du logiciel au départ renseigné
 - Niveau cible défini et validé par le PO
-- COP désigné, avec disponibilité estimée
+- Chef de projet désigné, avec disponibilité estimée
 :::
 |||
 ::: grey À chaque story de développement
