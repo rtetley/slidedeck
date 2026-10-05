@@ -245,7 +245,7 @@ C'est ce qu'une entreprise tech appellerait l'**enablement** : ça se pilote, ç
 
 ---
 
-<!-- kicker: Côté SED — trois situations, trois postures -->
+<!-- kicker: Quatre situations, quatre postures -->
 
 ## Ce qui est attendu de chacun
 
@@ -255,6 +255,8 @@ C'est ce qu'une entreprise tech appellerait l'**enablement** : ça se pilote, ç
    Votre rôle : être le lien vivant entre la vision scientifique de l'EP et le backlog de l'ADT. C'est le rôle le plus stratégique du dispositif. Vous décidez du comment et du quand.
 3. **Vous êtes en CDD sur un projet spécifique**\
    Votre rôle : contribuer à une initiative bornée dans le temps. Votre travail doit être documenté, commité et transmissible avant votre départ. C'est non négociable.
+4. **Vous êtes chercheur, *Product Owner* du logiciel**\
+   Votre rôle : porter la vision scientifique et décider du quoi. Vous validez le niveau cible et le bilan de maturité, et vous êtes disponible aux moments clés : démos, arbitrages.
 
 ---
 
